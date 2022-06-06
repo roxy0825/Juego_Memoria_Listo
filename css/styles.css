@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+.tablero {
+    display: flex;
+    border: 1px solid #eee;
+    flex-wrap: wrap;
+    height: 800px;
+    margin: 0 auto;
+    width: 603px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    border: 1px solid #eee;
+}
+
+.titulo,
+.acierto {
+    text-align: center;
+}
